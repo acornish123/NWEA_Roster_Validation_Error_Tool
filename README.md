@@ -3,7 +3,7 @@ Spreadsheet tool which assists in identify the cause of errors found during the 
 
 ## About
 Spreadsheet tool which can greatly assist with identifying the cause of validation errors which the system identified.  It purely uses advanced spreadsheet functions in order to avoid security concerns and installation issues.
->
+This file is only for assisting with locating the cause of errors which were detected during an import.  It does not detect errors on its own, instead it utilizes the errors copied from the associated 'Export - File Validation Errors.cvs' to display helpful information concerning each particular error.
 
 ## Getting Started
 Simply download the spreadsheet, open in MS Excel, then follow the instructions.
