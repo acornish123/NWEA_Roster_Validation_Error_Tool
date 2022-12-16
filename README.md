@@ -4,7 +4,6 @@ Spreadsheet tool which assists in identify the cause of errors found during the 
 ## About
 Spreadsheet tool which can greatly assist with identifying the cause of validation errors which the system identified.  It purely uses advanced spreadsheet functions in order to avoid security concerns and installation issues.
 >
-<1-- <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/NextError.png" width="50%" /> -->
 
 ## Getting Started
 Simply download the spreadsheet, open in MS Excel, then follow the instructions.
@@ -21,7 +20,7 @@ Simply download the spreadsheet, open in MS Excel, then follow the instructions.
 7. Select the Dashboard (DB) tab and ensure the roster filename is entered correctly near the top
 7. Follow the guidance to identify issues and correct the errors
 8. After correcting an error, switch to the 'Error' tab and remove the "RF" (or entire entry) for the error
-	1. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/NextError.png" width="50%" />
+	1. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/NextError.png" width="80%" />
 9. Switch back to the DB tab and the next error will be shown
 10. Continue the process until all errors are corrected
 11. Once all errors are corrected, or if you would like to check on your progress, save the roster file and import again
