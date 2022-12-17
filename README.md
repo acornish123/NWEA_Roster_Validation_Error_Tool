@@ -41,7 +41,7 @@ Simply download the spreadsheet, open in MS Excel, then follow the instructions.
 	2. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/002-openRoster.png" width="50%" />
 4. Open the 'Export - File Validation Errors.csv'
 5. Copy the errors from the file to the 'Errors' tab in the RVE
-	1. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/003-copyErrors.png" width="50%" />
+	1. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/003-copyErrors.png" width="80%" />
 	2. The first error should be highlighted, if you copied over the header from the error file, delete the data from B3 or the entire row
 	3. Close the 'Export - File Validation Errors.csv' window.
 6. Switch back to the 'Dashboard' tab.
@@ -55,9 +55,9 @@ Simply download the spreadsheet, open in MS Excel, then follow the instructions.
 		1. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/007-dataFromRoster.png" width="50%" />
 	4. The data indicates 
 		1. The 'Instructor First Name' is in Column D
-		2. There are two different entries for 'Instructor First Name' for the 'Instructor ID'
-			1. There are 9 entries of 'Jonah' and the first entry occurs on row 2
-			2. There is 1 entry of 'Bartholomeow' which occurs on row 11
+		2. There are two different entries for 'Instructor First Name' for the specified ID.
+			1. 9 entries of 'Jonah' and the first entry occurs on row 2
+			2. 1 entry of 'Bartholomeow' which occurs on row 11
 	5. From the data, it can be easily determined that the 'Bartholomeow' entry is likely incorrect.
 	6. Switch to the Roster file window and make the appropriate correction
 		1. In this case, the ID number on row 11 was not correct
@@ -65,7 +65,7 @@ Simply download the spreadsheet, open in MS Excel, then follow the instructions.
 	7. Return to the RVE window and it will indicate that the error appears to have been corrected
 8. Tap on the 'Errors' tab to select the next error
 	1. Clear the 'RF' from Col B of the corrected error, or remove the entire row
-	2. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/009-NextError.png" width="50%" />
+	2. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/009-NextError.png" width="80%" />
 9. Return to the 'Dashboard' tab
 	1. The error indicates 'May have been corrected by previous change'.  This is accurate since the ID number was corrected for the first error.
 
