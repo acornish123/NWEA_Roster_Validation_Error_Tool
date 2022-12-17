@@ -35,24 +35,24 @@ Simply download the spreadsheet, open in MS Excel, then follow the instructions.
 	3. RosterValidationErrorTool.xlsx
 2. Open the 'RosterValidationErrorTool.xlsx' (RVE)
 	1. The Roster Filename in B2 should contain 'exRoster'.  If it does not, enter the correct filename in B2.
-	2. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/001-openTool.png" width="80%" />
+	2. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/001-openTool.png" width="50%" />
 3. Open the 'exRoster.csv' in a seperate Excel window
 	1. The 'ERRONEOUOS DATA MISSING' error occurs because the 'Errors' have not been entered		
-	2. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/002-openRoster.png" width="80%" />
+	2. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/002-openRoster.png" width="50%" />
 4. Open the 'Export - File Validation Errors.csv'
 5. Copy the errors from the file to the 'Errors' tab in the RVE
-	1. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/003-copyErrors.png" width="80%" />
+	1. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/003-copyErrors.png" width="50%" />
 	2. The first error should be highlighted, if you copied over the header from the error file, delete the data from B3 or the entire row
 	3. Close the 'Export - File Validation Errors.csv' window.
 6. Switch back to the 'Dashboard' tab.
-	1. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/004-dbFullError.png" width="80%" />
+	1. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/004-dbFullError.png" width="50%" />
 7. The Dashboard now displays information about the error
 	1. Information directly from the error
-		1. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/005-errorInfo.png" width="80%" />
+		1. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/005-errorInfo.png" width="50%" />
 	2. Suggestion(s) or information about the error
-		1. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/006-suggestions.png" width="80%" />
+		1. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/006-suggestions.png" width="50%" />
 	3. Data from the roster related to the error
-		1. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/007-dataFromRoster.png" width="80%" />
+		1. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/007-dataFromRoster.png" width="50%" />
 	4. The data indicates 
 		1. The 'Instructor First Name' is in Column D
 		2. There are two different entries for 'Instructor First Name' for the 'Instructor ID'
@@ -61,11 +61,11 @@ Simply download the spreadsheet, open in MS Excel, then follow the instructions.
 	5. From the data, it can be easily determined that the 'Bartholomeow' entry is likely incorrect.
 	6. Switch to the Roster file window and make the appropriate correction
 		1. In this case, the ID number on row 11 was not correct
-		2. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/008-IDwrong.png" width="80%" />
+		2. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/008-IDwrong.png" width="50%" />
 	7. Return to the RVE window and it will indicate that the error appears to have been corrected
 8. Tap on the 'Errors' tab to select the next error
 	1. Clear the 'RF' from Col B of the corrected error, or remove the entire row
-	2. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/009-NextError.png" width="80%" />
+	2. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/009-NextError.png" width="50%" />
 9. Return to the 'Dashboard' tab
 	1. The error indicates 'May have been corrected by previous change'.  This is accurate since the ID number was corrected for the first error.
 
