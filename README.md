@@ -3,7 +3,7 @@ Spreadsheet tool which assists in identify the cause of errors found during the 
 
 ## About
 Spreadsheet tool which can greatly assist with identifying the cause of validation errors which the system identified.  It purely uses advanced spreadsheet functions in order to avoid security concerns and installation issues.  Partners do not have to install any programs, accept any warnings, or make any changes to security settings to use the tool.  
-This file is only for assisting with locating the cause of errors which were detected during an import.  It does not detect errors on its own, instead it utilizes the errors copied from the associated 'Export - File Validation Errors.cvs' to display helpful information concerning each particular error.
+This file is only for assisting with locating the cause of errors which were detected during an import.  It does not detect errors on its own, instead it utilizes the errors copied from the associated 'Export - File Validation Errors.csv' to display helpful information concerning each particular error.
 
 ## REQUIREMENTS
 
@@ -14,10 +14,10 @@ It is expected that versions for other popular spreadsheet programs, such as Mac
 ## TODO
 
 Although the tool is working there is much still needing to be accomplished.
-1. Works only with Microsoft Excel.
+1. Currently wWorks only with Microsoft Excel.  Need to create versions for other popular spreadsheet programs
 2. Add handling for errors generated from optional columns.
 3. Improve User Interface
-4. Simplify setup process
+4. Simplify setup process or provide video guidance.  Process appears complicated but can be done in less than a minute.
 
 ## Getting Started
 Download the spreadsheet, open in MS Excel, then follow the instructions.
@@ -25,7 +25,7 @@ Download the spreadsheet, open in MS Excel, then follow the instructions.
 ## Usage
 
 ### Setup
-1. After attempting to import and recieving the Valdiation error notice, export the errors to file.
+1. After attempting to import and receiving the validation error notice, export the errors to file.
 2. Prior to using this tool, create a backup copy of your roster file.
 3. Place your roster file in the same directory/folder as the Roster Validation Error (RVE) spreadsheet tool. 
 4. Open both the RVE and the roster file.  Both of these spreadsheets must remain open to use the tool.
@@ -36,9 +36,9 @@ Download the spreadsheet, open in MS Excel, then follow the instructions.
 7. Select the Dashboard (DB) tab and ensure the roster filename is entered correctly near the top
 8. The first error should now be displayed in the Dashboard
 
-### Correcting erros
+### Correcting errors
 1. Use the displayed data to identify issues and correct the errors
- 	1. See ['Walk thru Example'](##walk-through-example) for additional guidance.
+ 	1. See ['Walk thru Example'](#walk-through-example) for additional guidance.
 2. After correcting an error, switch to the 'Error' tab and remove the "RF" (or entire entry) for the error
 	1. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/NextError.png" width="80%" />
 3. Switch back to the DB tab and the next error will be shown
@@ -56,7 +56,7 @@ Download the spreadsheet, open in MS Excel, then follow the instructions.
 2. Open the 'RosterValidationErrorTool.xlsx' (RVE)
 	1. The Roster Filename in B2 should contain 'exRoster'.  If it does not, enter the correct filename in B2.
 	2. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/001-openTool.png" width="50%" />
-3. Open the 'exRoster.csv' in a seperate Excel window
+3. Open the 'exRoster.csv' in a separate Excel window
 	1. The 'ERRONEOUOS DATA MISSING' error occurs because the 'Errors' have not been entered		
 	2. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/002-openRoster.png" width="50%" />
 4. Open the 'Export - File Validation Errors.csv'
