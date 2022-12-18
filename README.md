@@ -38,7 +38,7 @@ Download the spreadsheet, open in MS Excel, then follow the instructions.
 
 ### Correcting errors
 1. Use the displayed data to identify issues and correct the errors
- 	1. See ['Walk thru Example'](#walk-through-example) for additional guidance.
+ 	1. See ['Walk thru Example'](#walk-through-example) for additional guidance ['Walk thru Example'](#dashboard-step) .
 2. After correcting an error, switch to the 'Error' tab and remove the "RF" (or entire entry) for the error
 	1. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/NextError.png" width="80%" />
 3. Switch back to the DB tab and the next error will be shown
@@ -66,7 +66,7 @@ Download the spreadsheet, open in MS Excel, then follow the instructions.
 	3. Close the 'Export - File Validation Errors.csv' window.
 6. Switch back to the 'Dashboard' tab.
 	1. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/004-dbFullError.png" width="50%" />
-7. The Dashboard now displays information about the error
+7. <a name="dashboard-step"></a>The Dashboard now displays information about the error
 	1. Information directly from the error
 		1. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/005-errorInfo.png" width="50%" />
 	2. Suggestion(s) or information about the error
