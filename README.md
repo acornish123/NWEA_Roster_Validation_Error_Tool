@@ -14,10 +14,11 @@ It is expected that versions for other popular spreadsheet programs, such as Mac
 ## TODO
 
 Although the tool is working there is much still needing to be accomplished.
-1. Currently wWorks only with Microsoft Excel.  Need to create versions for other popular spreadsheet programs
+1. Currently works only with Microsoft Excel.  Need verify MS Excel version compatibility and create versions for other popular spreadsheet programs.
 2. Add handling for errors generated from optional columns.
 3. Improve User Interface
 4. Simplify setup process or provide video guidance.  Process appears complicated but can be done in less than a minute.
+5. Add process for choosing error from Dashboard.
 
 ## Getting Started
 Download the spreadsheet, open in MS Excel, then follow the instructions.
