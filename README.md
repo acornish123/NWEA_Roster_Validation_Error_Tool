@@ -83,7 +83,7 @@ Download the spreadsheet, open in MS Excel, then follow the instructions.
 		1. In this case, the ID number on row 11 was not correct
 		2. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/008-IDwrong.png" width="50%" />
 	7. Return to the RVE window and it will indicate that the error appears to have been corrected
-		1. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/008A-corrected.png" width="50%" />
+		1. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/008a-corrected.png" width="50%" />
 8. Tap on the 'Errors' tab to select the next error
 	1. Clear the 'RF' from Col B of the corrected error, or remove the entire row
 	2. <img src="https://github.com/acornish123/NWEA_Roster_Validation_Error_Tool/blob/master/screenshots/009-NextError.png" width="80%" />
